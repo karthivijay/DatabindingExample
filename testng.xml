@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "try">
+    <listeners>
+        <listener class-name="net.sf.testng.databinding.TestAnnotationTransformer"/>
+    </listeners>
+
+   <test name="Main Test Group">
+        <packages>
+            <package name="dataBinding" />
+        </packages>
+    </test>
+</suite>
